@@ -73,7 +73,6 @@
         double[] coefficients = new double[length];
         for (int i = 0; i < length; i++)
         {
-            //double a = (i < p1.coefficients.Length) ? p1.coefficients[i] : 0;
             if (i < p1.coefficients.Length)
             {
                 a = p1.coefficients[i];
@@ -82,7 +81,6 @@
             {
                 a = 0;
             }
-            //double b = (i < p2.coefficients.Length) ? p2.coefficients[i] : 0;
             if (i < p2.coefficients.Length)
             {
                 b = p2.coefficients[i];
@@ -147,7 +145,7 @@
         return new Polynomial(quotient);
     }
 
-    
+
 }
 
 
